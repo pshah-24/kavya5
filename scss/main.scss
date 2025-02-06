@@ -727,6 +727,7 @@ body {
         var(--dark-color) 60%
       );
       -webkit-mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
+      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
     }
 
     &--1 {
@@ -949,6 +950,7 @@ body {
       border-top-left-radius: 100%;
       border-left: 2vmin solid #079097;
       -webkit-mask-image: linear-gradient(to top, transparent 25%, #079097 50%);
+      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
       position: relative;
       z-index: 1;
     }
@@ -979,6 +981,8 @@ body {
         transparent 50%,
         transparent
       );
+
+      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
 
       &--1 {
         left: 20vmin;
@@ -1091,6 +1095,8 @@ body {
         #079097 80%
       ) !important;
 
+      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
+
       &--1 {
         --w: 5vmin;
         --h: 60vmin;
@@ -1114,6 +1120,8 @@ body {
         #079097 80%
       ) !important;
 
+      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
+
       &--1 {
         left: -1vmin;
         transform: rotateY(-180deg);
@@ -1130,6 +1138,7 @@ body {
         transparent 40%,
         #079097 80%
       ) !important;
+      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
     }
   }
 
@@ -1145,6 +1154,7 @@ body {
         transparent 50%,
         #079097 80%
       ) !important;
+      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
     }
   }
 
@@ -1187,6 +1197,7 @@ body {
       transparent 20%,
       var(--dark-color)
     );
+    mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
 
     transform-origin: bottom center;
 

@@ -751,6 +751,7 @@ body {
     var(--dark-color) 60%
   );
   -webkit-mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
+  mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
 }
 .flower__g-right--1 {
   -webkit-animation: flower-g-right-ans 2.5s linear infinite;
@@ -1001,6 +1002,7 @@ body {
   border-top-left-radius: 100%;
   border-left: 2vmin solid #079097;
   -webkit-mask-image: linear-gradient(to top, transparent 25%, #079097 50%);
+  mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
   position: relative;
   z-index: 1;
 }
@@ -1024,6 +1026,7 @@ body {
     transparent 50%,
     transparent
   );
+  mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
 }
 .flower__g-fr__leaf--1 {
   left: 20vmin;
@@ -1157,6 +1160,7 @@ body {
     transparent 40%,
     #079097 80%
   ) !important;
+  mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
 }
 .long-g--1 .leaf--1 {
   --w: 5vmin;
@@ -1178,6 +1182,7 @@ body {
     transparent 50%,
     #079097 80%
   ) !important;
+  mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
 }
 .long-g--2 .leaf--1,
 .long-g--3 .leaf--1 {
@@ -1194,6 +1199,7 @@ body {
     transparent 40%,
     #079097 80%
   ) !important;
+  mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
 }
 .long-g--4 {
   left: 25vmin;
@@ -1207,6 +1213,7 @@ body {
     transparent 50%,
     #079097 80%
   ) !important;
+  mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
 }
 .long-g--5 {
   left: 42vmin;
@@ -1243,6 +1250,7 @@ body {
     transparent 20%,
     var(--dark-color)
   );
+  mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
   transform-origin: bottom center;
 }
 .long-g .leaf--0 {
