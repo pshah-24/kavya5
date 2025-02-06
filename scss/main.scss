@@ -7,7 +7,7 @@
 }
 
 :root {
-  --dark-color: #000;
+  --dark-color: #000000;
 }
 
 body {
@@ -59,7 +59,7 @@ body {
       transparent 19px,
       transparent 22px
     ),
-    linear-gradient(90deg, rgb(0, 255, 250), rgb(240, 240, 240));
+    linear-gradient(90deg, rgb(255, 242, 0), rgb(240, 240, 240));
 }
 
 .flowers {
@@ -187,7 +187,7 @@ body {
       transform: translate(-50%, -100%);
       width: 8vmin;
       height: 8vmin;
-      background-color: #6bf0ff;
+      background-color: #fce700;
       filter: blur(10vmin);
     }
   }
@@ -199,8 +199,8 @@ body {
     width: 8vmin;
     height: 11vmin;
     border-radius: 51% 49% 47% 53% / 44% 45% 55% 69%;
-    background-color: #a7ffee;
-    background-image: linear-gradient(to top, #54b8aa, #a7ffee);
+    background-color: #fce700;
+    background-image: linear-gradient(to top, #fce700, #a7ffee);
     transform-origin: bottom center;
     opacity: 0.9;
     box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
@@ -223,7 +223,7 @@ body {
       transform-origin: bottom left;
       border-radius: 4vmin 10vmin 4vmin 4vmin;
       transform: translate(-0%, 18%) rotateX(70deg) rotate(-43deg);
-      background-image: linear-gradient(to top, #39c6d6, #a7ffee);
+      background-image: linear-gradient(to top, #fce700, #fce700);
       z-index: 1;
       opacity: 0.8;
     }
@@ -365,7 +365,7 @@ body {
         transparent,
         rgba(255, 255, 255, 0.2)
       ),
-      linear-gradient(to top, transparent 10%, #14757a, #39c6d6);
+      linear-gradient(to top, transparent 10%, #fce700, #fce700);
     box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
     animation: grow-flower-tree 4s backwards;
 
@@ -382,7 +382,7 @@ body {
       background-image: linear-gradient(
         to top,
         rgba(20, 117, 122, 0.4),
-        #39c6d6
+        #fce700
       );
 
       &--1 {
@@ -436,7 +436,7 @@ body {
     animation: light-ans 4s linear infinite backwards;
 
     &:nth-child(odd) {
-      background-color: #23f0ff;
+      background-color: #fce700;
     }
 
     &--1 {
@@ -668,7 +668,7 @@ body {
   &__g-long {
     --w: 2vmin;
     --h: 6vmin;
-    --c: #159faa;
+    --c: #fce700;
     position: absolute;
     bottom: 10vmin;
     left: -3vmin;
@@ -727,7 +727,6 @@ body {
         var(--dark-color) 60%
       );
       -webkit-mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
-      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
     }
 
     &--1 {
@@ -794,7 +793,7 @@ body {
       background-image: linear-gradient(
         to top,
         transparent,
-        #079097,
+        #fce700,
         transparent 100%
       );
       position: relative;
@@ -905,20 +904,20 @@ body {
         ),
         linear-gradient(
           to bottom right,
-          #159faa 50%,
+          #fce700 50%,
           transparent 50%,
           transparent
         );
 
       -webkit-mask-image: linear-gradient(
         to bottom right,
-        #159faa 50%,
+        #fce700 50%,
         transparent 50%,
         transparent
       );
       mask-image: linear-gradient(
         to bottom right,
-        #159faa 50%,
+        #fce700 50%,
         transparent 50%,
         transparent
       );
@@ -950,7 +949,6 @@ body {
       border-top-left-radius: 100%;
       border-left: 2vmin solid #079097;
       -webkit-mask-image: linear-gradient(to top, transparent 25%, #079097 50%);
-      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
       position: relative;
       z-index: 1;
     }
@@ -970,19 +968,17 @@ body {
         ),
         linear-gradient(
           to bottom right,
-          #23f0ff 45%,
+          #fce700 45%,
           transparent 50%,
           transparent
         );
 
       -webkit-mask-image: linear-gradient(
         135deg,
-        #159faa 40%,
+        #fce700 40%,
         transparent 50%,
         transparent
       );
-
-      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
 
       &--1 {
         left: 20vmin;
@@ -1092,10 +1088,8 @@ body {
       -webkit-mask-image: linear-gradient(
         to top,
         transparent 40%,
-        #079097 80%
+        #fce700 80%
       ) !important;
-
-      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
 
       &--1 {
         --w: 5vmin;
@@ -1117,10 +1111,8 @@ body {
       -webkit-mask-image: linear-gradient(
         to top,
         transparent 50%,
-        #079097 80%
+        #fce700 80%
       ) !important;
-
-      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
 
       &--1 {
         left: -1vmin;
@@ -1136,9 +1128,8 @@ body {
       -webkit-mask-image: linear-gradient(
         to top,
         transparent 40%,
-        #079097 80%
+        #fce700 80%
       ) !important;
-      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
     }
   }
 
@@ -1152,9 +1143,8 @@ body {
       -webkit-mask-image: linear-gradient(
         to top,
         transparent 50%,
-        #079097 80%
+        #fce700 80%
       ) !important;
-      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
     }
   }
 
@@ -1197,7 +1187,6 @@ body {
       transparent 20%,
       var(--dark-color)
     );
-    mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
 
     transform-origin: bottom center;
 
@@ -1347,7 +1336,7 @@ body {
   }
 }
 
-@keyframes blooming-leaf-left {
+@keyframes bloomi-lngeaf-left {
   0% {
     transform-origin: right;
     transform: rotate(-70deg) rotateY(30deg) scale(0);
