@@ -108,3 +108,18 @@ body{
     position: absolute; /* Allows movement */
     transition: transform 0.1s ease-out; /* Smooth movement */
 }
+
+#yes-btn {
+    background-color: pink;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative; /* Stays in place */
+    transition: background-color 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+#yes-btn:hover {
+    background-color: palevioletred; /* Slight hover effect */
+}
