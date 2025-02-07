@@ -1053,6 +1053,7 @@ body {
   border-top-left-radius: 100%;
   border-left: 2vmin solid var(--c);
   -webkit-mask-image: linear-gradient(to top, transparent 20%, var(--dark-color));
+  mask-image: linear-gradient(to top, transparent 20%, var(--dark-color));
   transform-origin: bottom center;
 }
 .long-g .leaf--0 {
@@ -1348,19 +1349,3 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }/*# sourceMappingURL=main.css.map */
-
-.slideshow-container {
-  position: absolute;
-  top: 50px; /* Adjust this to move it higher/lower */
-  width: 100%;
-  text-align: center;
-  font-size: 2rem;
-  color: white;
-  font-weight: bold;
-  animation: fade-in 1s ease-in-out;
-}
-
-@keyframes fade-in {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
