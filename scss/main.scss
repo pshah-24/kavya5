@@ -726,6 +726,7 @@ body {
         transparent,
         var(--dark-color) 60%
       );
+      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
       -webkit-mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
     }
 
@@ -948,6 +949,7 @@ body {
       height: 50vmin;
       border-top-left-radius: 100%;
       border-left: 2vmin solid #079097;
+      mask-image: linear-gradient(to top, transparent 25%, #079097 50%);
       -webkit-mask-image: linear-gradient(to top, transparent 25%, #079097 50%);
       position: relative;
       z-index: 1;
@@ -971,8 +973,8 @@ body {
           #ffcccb 45%,
           transparent 50%,
           transparent
-        );
-
+        );  
+      mask-image: linear-gradient(135deg, #ffcccb 60%, transparent 80%);
       -webkit-mask-image: linear-gradient(
         135deg,
         #ffcccb 40%,
@@ -1085,6 +1087,7 @@ body {
     transform: scale(0.8) rotate(-5deg);
 
     .leaf {
+      mask-image: linear-gradient(135deg, #ffcccb 80%, transparent 40%);
       -webkit-mask-image: linear-gradient(
         to top,
         transparent 40%,
@@ -1108,6 +1111,7 @@ body {
     transform: scale(0.6) rotateX(60deg);
 
     .leaf {
+      mask-image: linear-gradient(135deg, #ffcccb 80%, transparent 50%);
       -webkit-mask-image: linear-gradient(
         to top,
         transparent 50%,
@@ -1125,6 +1129,7 @@ body {
     left: -17vmin;
     bottom: 0vmin;
     .leaf {
+      mask-image: linear-gradient(135deg, #ffcccb 80%, transparent 40%);
       -webkit-mask-image: linear-gradient(
         to top,
         transparent 40%,
@@ -1140,6 +1145,7 @@ body {
     transform: scale(0.6) rotateX(60deg);
 
     .leaf {
+      mask-image: linear-gradient(135deg, #ffcccb 80%, transparent 50%);
       -webkit-mask-image: linear-gradient(
         to top,
         transparent 50%,
@@ -1182,6 +1188,7 @@ body {
     height: var(--h);
     border-top-left-radius: 100%;
     border-left: 2vmin solid var(--c);
+    mask-image: linear-gradient(to top, transparent 20%, var(--dark-color));
     -webkit-mask-image: linear-gradient(
       to top,
       transparent 20%,
