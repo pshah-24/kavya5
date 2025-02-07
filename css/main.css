@@ -1346,6 +1346,6 @@ body {
   }
 }
 .container * {
-  -webkit-animation-play-state: paused !important;
-          animation-play-state: paused !important;
-}/*# sourceMappingURL=main.css.map */
+  -webkit-animation-play-state: running !important;
+  animation-play-state: running !important;
+}
