@@ -9,3 +9,18 @@ function GameLoop() {
         myAudio.play(); // If paused, play the audio
     }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const noButton = document.getElementById("no-btn");
+
+    noButton.addEventListener("mouseover", function () {
+        // Generate random positions
+        let x = Math.random() * (window.innerWidth - noButton.clientWidth);
+        let y = Math.random() * (window.innerHeight - noButton.clientHeight);
+
+        // Apply new position
+        noButton.style.position = "absolute";
+        noButton.style.left = `${x}px`;
+        noButton.style.top = `${y}px`;
+    });
+});
