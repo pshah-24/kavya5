@@ -291,7 +291,7 @@ body {
   bottom: 0vmin;
   width: 1vmin;
   height: 1vmin;
-  background-color: rgb(255, 251, 0);
+  background-color: rgb(247, 197, 197);
   border-radius: 50%;
   filter: blur(0.2vmin);
   -webkit-animation: light-ans 4s linear infinite backwards;
@@ -1348,3 +1348,19 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }/*# sourceMappingURL=main.css.map */
+
+.slideshow-container {
+  position: absolute;
+  top: 50px; /* Adjust this to move it higher/lower */
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  animation: fade-in 1s ease-in-out;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
